@@ -1,0 +1,44 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor & OS-specific files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+.cache/
+out/
+.next/
+.vercel/
+.netlify/
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Apollo cache & temp files
+apollo.config.js
+apollo/
+graphql.schema.json
+
+# Miscellaneous
+*.swp
+.idea/
+*.bak
